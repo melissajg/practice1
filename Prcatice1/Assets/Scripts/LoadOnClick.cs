@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class LoadOnClick : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoadScene(int level)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        Application.LoadLevel(level);
+    }   
+   
+    
 }
